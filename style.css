@@ -7,7 +7,7 @@ body {
   #level-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem; /* Increased size */
-    margin: 5%;
+    margin: 2%;
     color: #FEF2BF;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Added shadow */
     transition: color 0.3s; /* Added transition */
@@ -63,3 +63,14 @@ body {
     box-shadow: 0 0 20px white;
     background-color: grey;
   }   
+
+  .copy-footer {
+    background-color: none; /* Dark background for footer */
+    color: white; /* White text */
+    /* padding: 5px; Add padding around the footer */
+    font-size: 1rem; /* Adjust font size */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
